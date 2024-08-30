@@ -1,0 +1,38 @@
+{
+    "#owner": {
+      "flags": [
+        "@css/password",
+        "@css/rcon",
+        "@css/root"
+      ],
+      "immunity": 100
+    },
+    "#admin": {
+      "flags": [
+        "@css/reservation",
+        "@css/generic",
+        "@css/kick",
+        "@css/ban",
+        "@css/unban",
+        "@css/vip",
+        "@css/slay",
+        "@css/changemap",
+        "@css/cvar",
+        "@css/config",
+        "@css/chat",
+        "@css/vote",
+        "@css/cheats"
+      ],
+      "immunity": 99
+    },
+    "#vip": {
+      "flags": [
+        "@css/reservation",
+        "@css/generic",
+        "@css/vip",
+        "@css/chat",
+        "@css/vote"
+      ],
+      "immunity": 98
+    }
+}

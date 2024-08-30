@@ -1,0 +1,22 @@
+{
+    "tags": {
+        "#admin": { 
+            "prefix": "{GREEN}[ADMIN] ", 
+            "nick_color": "{DEFAULT}", 
+            "message_color": "", 
+            "scoreboard": "[ADMIN]" 
+        },
+        "#vip": { 
+            "prefix": "{GOLD}[VIP] ", 
+            "nick_color": "{DEFAULT}", 
+            "message_color": "", 
+            "scoreboard": "[VIP]" 
+        },
+        "everyone": { 
+            "prefix": "",
+            "nick_color": "",
+            "message_color": "",
+            "scoreboard": ""
+        }
+    }
+  }
