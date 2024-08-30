@@ -1,0 +1,59 @@
+name: counterstrike2
+
+on:
+  push:
+
+jobs:
+  counterstrike2:
+    runs-on: ubuntu-latest
+    permissions: write-all
+
+    steps:
+    - name: "Get gamemode name"
+      id: get_gamemode_name
+      run: echo "gamemode=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_ENV
+
+    - uses: actions/checkout@master
+    - name: Compress action step
+      uses: a7ul/tar-action@v1.1.0
+      id: compress
+      with:
+        command: c
+        cwd: ./
+        files: |
+          custom
+          plugins
+          scripts
+          gamemode.cfg
+          pre.sh
+          post.sh
+        outPath: ./${{ env.gamemode }}.tar.gz
+
+    - name: Delete previous release
+      id: delete_release
+      run: gh release delete gamemode_${{ env.gamemode }} -y
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      continue-on-error: true
+
+    - name: Create new release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: gamemode_${{ env.gamemode }}
+        release_name: gamemode_${{ env.gamemode }}
+        body: "Configuration files for Counter Strike 2 server."
+        draft: false
+        prerelease: false
+
+    - name: Upload .tar.gz file
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./${{ env.gamemode }}.tar.gz
+        asset_name: ${{ env.gamemode }}.tar.gz
+        asset_content_type: application/gzip
