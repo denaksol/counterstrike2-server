@@ -1,0 +1,16 @@
+{
+    "tags": {
+        "#admin": { 
+            "prefix": "{GREEN}[ADMIN] ", 
+            "nick_color": "{DEFAULT}", 
+            "message_color": "", 
+            "scoreboard": "[ADMIN]" 
+        },
+        "everyone": { 
+            "prefix": "",
+            "nick_color": "",
+            "message_color": "",
+            "scoreboard": ""
+        }
+    }
+  }
