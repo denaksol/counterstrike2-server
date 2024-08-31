@@ -30,7 +30,7 @@ jobs:
 
     - name: Delete previous release
       id: delete_release
-      run: gh release delete ${{ env.gamemode }} -y
+      run: gh release delete gamemode_${{ env.gamemode }} -y
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       continue-on-error: true
@@ -41,8 +41,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ env.gamemode }}
-        release_name: ${{ env.gamemode }}
+        tag_name: gamemode_${{ env.gamemode }}
+        release_name: gamemode_${{ env.gamemode }}
         body: "Configuration files for Counter Strike 2 server."
         draft: false
         prerelease: false
