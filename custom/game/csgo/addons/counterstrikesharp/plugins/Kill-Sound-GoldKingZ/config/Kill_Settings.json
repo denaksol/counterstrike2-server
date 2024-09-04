@@ -1,0 +1,189 @@
+{
+    "HeadShot_1": {
+      "Announcement": false,
+      "ShowChat": false,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/headshot.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "HeadShot_2": {
+      "Announcement": false,
+      "ShowChat": false,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/headshot.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "HeadShot_5": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/headhunter.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_2": {
+      "Announcement": true,
+      "ShowChat": false,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/doublekill.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_3": {
+      "Announcement": true,
+      "ShowChat": false,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/triplekill.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_4": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/dominating.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_6": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/rampage.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_8": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/killingspree.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_10": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/monsterkill.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_14": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/unstoppable.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_16": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/ultrakill.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_18": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/godlike.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_20": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/wickedsick.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_24": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/ludicrouskill.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "Kill_26": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 15,
+      "Path": "sounds/GoldKingZ/Quake/holyshit.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "KnifeKill": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/humiliation.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "TaserKill": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/humiliation.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "GrenadeKill": {
+      "Announcement": false,
+      "ShowChat": true,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/perfect.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "MollyKill": {
+      "Announcement": false,
+      "ShowChat": true,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/impressive.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "SelfKill": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/haha.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "TeamKill": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/teamkiller.vsnd_c",
+      "Interval_InSecs": 5
+    },
+    "FirstBlood": {
+      "Announcement": true,
+      "ShowChat": true,
+      "ShowCenter": false,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/firstblood.vsnd_c"
+    },
+    "RoundPrepare": {
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/prepare.vsnd_c"
+    },
+    "RoundStart": {
+      "ShowChat": true,
+      "ShowCenter": true,
+      "ShowCenter_InSecs": 10,
+      "Path": "sounds/GoldKingZ/Quake/play.vsnd_c"
+    }
+  }
